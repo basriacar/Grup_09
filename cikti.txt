@@ -1,0 +1,172 @@
+Toplam 25 görev yüklendi. Zamanlayıcı başlatılıyor...
+[31m[Zaman  0] Görev 1 (öncelik=1, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[31m[Zaman  0] Görev 1 çalışıyor... (kalan=1 sn)[0m
+[31m[Zaman  1] Görev 1 (öncelik=2, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[32m[Zaman  1] Görev 2 (öncelik=0, kalan=1 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[32m[Zaman  1] Görev 2 çalışıyor... (kalan=0 sn)[0m
+[32m[Zaman  2] Görev 2 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[34m[Zaman  2] Görev 4 (öncelik=0, kalan=3 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[34m[Zaman  2] Görev 4 çalışıyor... (kalan=2 sn)[0m
+[34m[Zaman  3] Görev 4 çalışıyor... (kalan=1 sn)[0m
+[34m[Zaman  4] Görev 4 çalışıyor... (kalan=0 sn)[0m
+[34m[Zaman  5] Görev 4 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[31m[Zaman  5] Görev 7 (öncelik=0, kalan=4 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[31m[Zaman  5] Görev 7 çalışıyor... (kalan=3 sn)[0m
+[31m[Zaman  6] Görev 7 çalışıyor... (kalan=2 sn)[0m
+[31m[Zaman  7] Görev 7 çalışıyor... (kalan=1 sn)[0m
+[31m[Zaman  8] Görev 7 çalışıyor... (kalan=0 sn)[0m
+[31m[Zaman  9] Görev 7 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[32m[Zaman  9] Görev 8 (öncelik=0, kalan=4 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[32m[Zaman  9] Görev 8 çalışıyor... (kalan=3 sn)[0m
+[32m[Zaman 10] Görev 8 çalışıyor... (kalan=2 sn)[0m
+[32m[Zaman 11] Görev 8 çalışıyor... (kalan=1 sn)[0m
+[32m[Zaman 12] Görev 8 çalışıyor... (kalan=0 sn)[0m
+[32m[Zaman 13] Görev 8 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[33m[Zaman 13] Görev 9 (öncelik=0, kalan=2 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[33m[Zaman 13] Görev 9 çalışıyor... (kalan=1 sn)[0m
+[33m[Zaman 14] Görev 9 çalışıyor... (kalan=0 sn)[0m
+[33m[Zaman 15] Görev 9 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[35m[Zaman 15] Görev 11 (öncelik=0, kalan=3 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[35m[Zaman 15] Görev 11 çalışıyor... (kalan=2 sn)[0m
+[35m[Zaman 16] Görev 11 çalışıyor... (kalan=1 sn)[0m
+[35m[Zaman 17] Görev 11 çalışıyor... (kalan=0 sn)[0m
+[35m[Zaman 18] Görev 11 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[35m[Zaman 18] Görev 17 (öncelik=0, kalan=4 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[35m[Zaman 18] Görev 17 çalışıyor... (kalan=3 sn)[0m
+[35m[Zaman 19] Görev 17 çalışıyor... (kalan=2 sn)[0m
+[35m[Zaman 20] Görev 17 çalışıyor... (kalan=1 sn)[0m
+[35m[Zaman 21] Görev 17 çalışıyor... (kalan=0 sn)[0m
+[35m[Zaman 22] Görev 17 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[36m[Zaman 22] Görev 18 (öncelik=0, kalan=4 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[36m[Zaman 22] Görev 18 çalışıyor... (kalan=3 sn)[0m
+[36m[Zaman 23] Görev 18 çalışıyor... (kalan=2 sn)[0m
+[36m[Zaman 24] Görev 18 çalışıyor... (kalan=1 sn)[0m
+[36m[Zaman 25] Görev 18 çalışıyor... (kalan=0 sn)[0m
+[36m[Zaman 26] Görev 18 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[32m[Zaman 26] Görev 20 (öncelik=0, kalan=4 sn): GERÇEK ZAMANLI görev BAŞLADI[0m
+[32m[Zaman 26] Görev 20 çalışıyor... (kalan=3 sn)[0m
+[32m[Zaman 27] Görev 20 çalışıyor... (kalan=2 sn)[0m
+[32m[Zaman 28] Görev 20 çalışıyor... (kalan=1 sn)[0m
+[32m[Zaman 29] Görev 20 çalışıyor... (kalan=0 sn)[0m
+[32m[Zaman 30] Görev 20 (öncelik=0, kalan=0 sn): GERÇEK ZAMANLI görev BİTTİ[0m
+[32m[Zaman 30] Görev 14 (öncelik=1, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[32m[Zaman 30] Görev 14 çalışıyor... (kalan=1 sn)[0m
+[32m[Zaman 31] Görev 14 (öncelik=2, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[33m[Zaman 31] Görev 15 (öncelik=1, kalan=4 sn): Kullanıcı görevi BAŞLADI[0m
+[33m[Zaman 31] Görev 15 çalışıyor... (kalan=3 sn)[0m
+[33m[Zaman 32] Görev 15 (öncelik=2, kalan=3 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[31m[Zaman 32] Görev 25 (öncelik=1, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[31m[Zaman 32] Görev 25 çalışıyor... (kalan=1 sn)[0m
+[31m[Zaman 33] Görev 25 (öncelik=2, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[31m[Zaman 33] Görev 1 (öncelik=2, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[31m[Zaman 33] Görev 1 çalışıyor... (kalan=0 sn)[0m
+[31m[Zaman 34] Görev 1 (öncelik=2, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[35m[Zaman 34] Görev 5 (öncelik=2, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[35m[Zaman 34] Görev 5 çalışıyor... (kalan=1 sn)[0m
+[35m[Zaman 35] Görev 5 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[36m[Zaman 35] Görev 6 (öncelik=2, kalan=3 sn): Kullanıcı görevi BAŞLADI[0m
+[36m[Zaman 35] Görev 6 çalışıyor... (kalan=2 sn)[0m
+[36m[Zaman 36] Görev 6 (öncelik=3, kalan=2 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[34m[Zaman 36] Görev 10 (öncelik=2, kalan=4 sn): Kullanıcı görevi BAŞLADI[0m
+[34m[Zaman 36] Görev 10 çalışıyor... (kalan=3 sn)[0m
+[34m[Zaman 37] Görev 10 (öncelik=3, kalan=3 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[31m[Zaman 37] Görev 19 (öncelik=2, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[31m[Zaman 37] Görev 19 çalışıyor... (kalan=1 sn)[0m
+[31m[Zaman 38] Görev 19 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[35m[Zaman 38] Görev 23 (öncelik=2, kalan=3 sn): Kullanıcı görevi BAŞLADI[0m
+[35m[Zaman 38] Görev 23 çalışıyor... (kalan=2 sn)[0m
+[35m[Zaman 39] Görev 23 (öncelik=3, kalan=2 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[32m[Zaman 39] Görev 14 (öncelik=2, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[32m[Zaman 39] Görev 14 çalışıyor... (kalan=0 sn)[0m
+[32m[Zaman 40] Görev 14 (öncelik=2, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[33m[Zaman 40] Görev 15 (öncelik=2, kalan=3 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[33m[Zaman 40] Görev 15 çalışıyor... (kalan=2 sn)[0m
+[33m[Zaman 41] Görev 15 (öncelik=3, kalan=2 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[31m[Zaman 41] Görev 25 (öncelik=2, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[31m[Zaman 41] Görev 25 çalışıyor... (kalan=0 sn)[0m
+[31m[Zaman 42] Görev 25 (öncelik=2, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[33m[Zaman 42] Görev 3 (öncelik=3, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[33m[Zaman 42] Görev 3 çalışıyor... (kalan=1 sn)[0m
+[33m[Zaman 43] Görev 3 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[36m[Zaman 43] Görev 12 (öncelik=3, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[36m[Zaman 43] Görev 12 çalışıyor... (kalan=1 sn)[0m
+[36m[Zaman 44] Görev 12 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[31m[Zaman 44] Görev 13 (öncelik=3, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[31m[Zaman 44] Görev 13 çalışıyor... (kalan=1 sn)[0m
+[31m[Zaman 45] Görev 13 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[34m[Zaman 45] Görev 16 (öncelik=3, kalan=4 sn): Kullanıcı görevi BAŞLADI[0m
+[34m[Zaman 45] Görev 16 çalışıyor... (kalan=3 sn)[0m
+[34m[Zaman 46] Görev 16 (öncelik=3, kalan=3 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[33m[Zaman 46] Görev 21 (öncelik=3, kalan=3 sn): Kullanıcı görevi BAŞLADI[0m
+[33m[Zaman 46] Görev 21 çalışıyor... (kalan=2 sn)[0m
+[33m[Zaman 47] Görev 21 (öncelik=3, kalan=2 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[34m[Zaman 47] Görev 22 (öncelik=3, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[34m[Zaman 47] Görev 22 çalışıyor... (kalan=1 sn)[0m
+[34m[Zaman 48] Görev 22 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[36m[Zaman 48] Görev 24 (öncelik=3, kalan=2 sn): Kullanıcı görevi BAŞLADI[0m
+[36m[Zaman 48] Görev 24 çalışıyor... (kalan=1 sn)[0m
+[36m[Zaman 49] Görev 24 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[35m[Zaman 49] Görev 5 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[35m[Zaman 49] Görev 5 çalışıyor... (kalan=0 sn)[0m
+[35m[Zaman 50] Görev 5 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[36m[Zaman 50] Görev 6 (öncelik=3, kalan=2 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[36m[Zaman 50] Görev 6 çalışıyor... (kalan=1 sn)[0m
+[36m[Zaman 51] Görev 6 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[34m[Zaman 51] Görev 10 (öncelik=3, kalan=3 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[34m[Zaman 51] Görev 10 çalışıyor... (kalan=2 sn)[0m
+[34m[Zaman 52] Görev 10 (öncelik=3, kalan=2 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[31m[Zaman 52] Görev 19 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[31m[Zaman 52] Görev 19 çalışıyor... (kalan=0 sn)[0m
+[31m[Zaman 53] Görev 19 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[35m[Zaman 53] Görev 23 (öncelik=3, kalan=2 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[35m[Zaman 53] Görev 23 çalışıyor... (kalan=1 sn)[0m
+[35m[Zaman 54] Görev 23 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[33m[Zaman 54] Görev 15 (öncelik=3, kalan=2 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[33m[Zaman 54] Görev 15 çalışıyor... (kalan=1 sn)[0m
+[33m[Zaman 55] Görev 15 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[33m[Zaman 55] Görev 3 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[33m[Zaman 55] Görev 3 çalışıyor... (kalan=0 sn)[0m
+[33m[Zaman 56] Görev 3 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[36m[Zaman 56] Görev 12 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[36m[Zaman 56] Görev 12 çalışıyor... (kalan=0 sn)[0m
+[36m[Zaman 57] Görev 12 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[31m[Zaman 57] Görev 13 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[31m[Zaman 57] Görev 13 çalışıyor... (kalan=0 sn)[0m
+[31m[Zaman 58] Görev 13 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[34m[Zaman 58] Görev 16 (öncelik=3, kalan=3 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[34m[Zaman 58] Görev 16 çalışıyor... (kalan=2 sn)[0m
+[34m[Zaman 59] Görev 16 (öncelik=3, kalan=2 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[33m[Zaman 59] Görev 21 (öncelik=3, kalan=2 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[33m[Zaman 59] Görev 21 çalışıyor... (kalan=1 sn)[0m
+[33m[Zaman 60] Görev 21 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[34m[Zaman 60] Görev 22 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[34m[Zaman 60] Görev 22 çalışıyor... (kalan=0 sn)[0m
+[34m[Zaman 61] Görev 22 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[36m[Zaman 61] Görev 24 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[36m[Zaman 61] Görev 24 çalışıyor... (kalan=0 sn)[0m
+[36m[Zaman 62] Görev 24 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[36m[Zaman 62] Görev 6 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[36m[Zaman 62] Görev 6 çalışıyor... (kalan=0 sn)[0m
+[36m[Zaman 63] Görev 6 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[34m[Zaman 63] Görev 10 (öncelik=3, kalan=2 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[34m[Zaman 63] Görev 10 çalışıyor... (kalan=1 sn)[0m
+[34m[Zaman 64] Görev 10 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[35m[Zaman 64] Görev 23 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[35m[Zaman 64] Görev 23 çalışıyor... (kalan=0 sn)[0m
+[35m[Zaman 65] Görev 23 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[33m[Zaman 65] Görev 15 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[33m[Zaman 65] Görev 15 çalışıyor... (kalan=0 sn)[0m
+[33m[Zaman 66] Görev 15 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[34m[Zaman 66] Görev 16 (öncelik=3, kalan=2 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[34m[Zaman 66] Görev 16 çalışıyor... (kalan=1 sn)[0m
+[34m[Zaman 67] Görev 16 (öncelik=3, kalan=1 sn): Görev ASKIDA, kuyruk seviyesi düşürüldü[0m
+[33m[Zaman 67] Görev 21 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[33m[Zaman 67] Görev 21 çalışıyor... (kalan=0 sn)[0m
+[33m[Zaman 68] Görev 21 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[34m[Zaman 68] Görev 10 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[34m[Zaman 68] Görev 10 çalışıyor... (kalan=0 sn)[0m
+[34m[Zaman 69] Görev 10 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+[34m[Zaman 69] Görev 16 (öncelik=3, kalan=1 sn): Kullanıcı görevi DEVAM EDİYOR[0m
+[34m[Zaman 69] Görev 16 çalışıyor... (kalan=0 sn)[0m
+[34m[Zaman 70] Görev 16 (öncelik=3, kalan=0 sn): Kullanıcı görevi BİTTİ[0m
+Tüm görevler tamamlandı. Toplam görev sayısı: 25
