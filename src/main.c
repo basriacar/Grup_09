@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
     /* giris.txt dosyasını okuyup görevleri yükle */
     int task_count = load_task_list(input_file, tasks, MAX_TASKS);
 
+    /* görev okuma olmazsa */
     if (task_count < 0) {
         fprintf(stderr, "Görev listesi yüklenemedi.\n");
         return 1;
