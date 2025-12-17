@@ -2,17 +2,39 @@
 #include <string.h>
 #include <unistd.h> // sleep() için
 
+/*
+ * ---------------------------------------------------------------------------
+ * GRUP 09 - FREE RTOS SIMULASYONU
+ * ---------------------------------------------------------------------------
+ * Dosya: scheduler.c
+ * * Aciklama:
+ * Bu modul, sistemdeki process'lerin (gorevlerin) hangi sirayla
+ * islemciyi (CPU) kullanacagini belirleyen zamanlayici algoritmasini icerir.
+ *
+ * Algoritma Detayi:
+ * 1. Gercek Zamanli Gorevler (Priority 0):
+ * - FCFS (First-Come-First-Served) mantigi ile kesintisiz calisir.
+ * - Gelen gorev hemen islemciye alinir ve bitene kadar (veya limiti dolana kadar) calisir.
+ *
+ * 2. Kullanici Gorevleri (Priority 1-3):
+ * - MLFQ (Multi-Level Feedback Queue) kullanilir.
+ * - 3 farkli oncelik kuyrugu vardir (user_q[0], user_q[1], user_q[2]).
+ * - Her gorev 1 sn (tick) calisir, bitmezse onceligi dusurulur ve kuyruk degistirir.
+ * - Round-Robin mantigi en dusuk seviyede devreye girer.
+ * ---------------------------------------------------------------------------
+ */
+
 /* -------------------------------------------------------------------
- *                GİRİŞ DOSYASI OKUMA (giris.txt)
+ * GİRİŞ DOSYASI OKUMA (giris.txt)
  * -------------------------------------------------------------------
  *
  * giris.txt formatı:
- *   <varış_zamanı>, <öncelik>, <görev_süresi>
+ * <varış_zamanı>, <öncelik>, <görev_süresi>
  *
  * Örnek:
- *   0, 0, 3
- *   1, 1, 5
- *   3, 3, 2
+ * 0, 0, 3
+ * 1, 1, 5
+ * 3, 3, 2
  */
 
 int load_task_list(const char *filename, SimTask tasks[], int max_tasks)
@@ -50,7 +72,7 @@ int load_task_list(const char *filename, SimTask tasks[], int max_tasks)
 }
 
 /* -------------------------------------------------------------------
- *                        KUYRUK YAPISI
+ * KUYRUK YAPISI
  * -------------------------------------------------------------------
  *
  * Kuyruklar sadece görev dizisindeki indeksleri tutar.
@@ -102,7 +124,7 @@ static bool queue_dequeue(IntQueue *q, int *value)
 }
 
 /* -------------------------------------------------------------------
- *                       YARDIMCI FONKSİYONLAR
+ * YARDIMCI FONKSİYONLAR
  * -------------------------------------------------------------------
  */
 
@@ -123,21 +145,21 @@ static const char *get_user_task_start_event(const SimTask *t)
 }
 
 /* -------------------------------------------------------------------
- *                       ZAMANLAYICI (SCHEDULER)
+ * ZAMANLAYICI (SCHEDULER)
  * -------------------------------------------------------------------
  *
  * Genel mantık:
- *   - Öncelik 0 görevler: RT kuyruğunda (rt_queue), FCFS, kesintisiz.
- *   - Öncelik 1,2,3 görevler: 3 seviyeli geri beslemeli kuyruğa
- *     (user_q[0], user_q[1], user_q[2]) atanır.
+ * - Öncelik 0 görevler: RT kuyruğunda (rt_queue), FCFS, kesintisiz.
+ * - Öncelik 1,2,3 görevler: 3 seviyeli geri beslemeli kuyruğa
+ * (user_q[0], user_q[1], user_q[2]) atanır.
  *
- *   - Zaman birimi (tick) = 1 saniye.
- *   - RT kuyruğunda bekleyen görev varken, kullanıcı görevleri çalışmaz.
- *   - Kullanıcı görevleri 1 saniye çalışır:
- *       * Biterse: FINISHED
- *       * Bitmezse: askıya alınır, önceliği bir seviye düşer (max 3).
- *   - En düşük seviye kuyruğunda (priority = 3) round-robin davranışı oluşur.
- *   - Her görev en fazla 20 sn CPU kullanabilir, sonra kendiliğinden biter.
+ * - Zaman birimi (tick) = 1 saniye.
+ * - RT kuyruğunda bekleyen görev varken, kullanıcı görevleri çalışmaz.
+ * - Kullanıcı görevleri 1 saniye çalışır:
+ * * Biterse: FINISHED
+ * * Bitmezse: askıya alınır, önceliği bir seviye düşer (max 3).
+ * - En düşük seviye kuyruğunda (priority = 3) round-robin davranışı oluşur.
+ * - Her görev en fazla 20 sn CPU kullanabilir, sonra kendiliğinden biter.
  */
 
 void run_scheduler(SimTask tasks[], int task_count)
@@ -195,7 +217,7 @@ void run_scheduler(SimTask tasks[], int task_count)
 
         /* -----------------------------------------------------------
          * 2) Eğer çalışan bir RT görev yoksa ve RT kuyruğu boş değilse
-         *    sıradaki RT görevi başlat.
+         * sıradaki RT görevi başlat.
          * -----------------------------------------------------------
          */
         if (rt_running_index == -1 && !queue_is_empty(&rt_queue)) {
