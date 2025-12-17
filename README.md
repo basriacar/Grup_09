@@ -118,5 +118,5 @@ SABIS’e yüklenecek proje dosyası içinde şunlar bulunmalıdır:
  B221210104 Hasan Basri AÇAR
  B221210105 Numan AK
  B201210003 Emir Çağlar DEMİRCİ
- B221210048 Mahmut KAHRAMAN 
+ B221210048 Mahmut KARAMAN 
  )
